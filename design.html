@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <title>CGKG</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;900&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+        integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"
+        integrity="sha512-CPA5LMoJI/a5HkSIAKcBtFXe4gqGjPUL2ExF/3PmhrrHI17wod9xOqqF+0WZQRKIIq0KwF8oG5BaiWobtrke3A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="pages.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+</head>
+<style>
+    body {
+        overflow-x: hidden;
+    }
+
+    .underline {
+        display: block;
+        border-radius: 10px;
+        height: 5px;
+        width: 100%;
+        background-color: pink;
+    }
+</style>
+</head>
+
+<body>
+
+    <section class="landpage vh-150">
+        <nav class="flex ">
+            <div class="logo bg-orange"></div>
+            <div class="navbtn">
+
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Details</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="landname bg-white flex center ">
+            <span class="cgkg ff-sg fw-700 flex center column ">
+                CGKG
+                <span class="cgkg-mini ff-sg fw-500 flex uppercase ">
+                    coast guard kindergarten
+                </span>
+            </span>
+        </div>
+
+        <div class="right-misc">
+
+            <img id="smallell" src="resource/Ellipse 11.svg">
+            <img id="bigell" src="resource/Ellipse 5.svg">
+
+            <img id="imgstudy" src="resource/Kids Studying from Home-pana.svg">
+
+            <img id="topwv" src="resource/nwv1.svg">
+        </div>
+    </section>
+
+    <section class="boardpage  bg-vlightgreen flex column">
+
+        <div class="sector flex center ">
+            <div class="cardbox flex center " id="cb1">
+                <img id="i1" src="resource/Teaching-pana.svg">
+                <div class="card bg-pink" id="c1">
+                    Academics
+                </div>
+            </div>
+            <img class="dotted" id="dot1" src="resource/dotted_line-removebg-preview.png ">
+        </div>
+
+
+        <div class="sector flex center ">
+            <div class="cardbox flex center " id="cb2">
+                <img id="i2" src="resource/Teacher-pana.svg">
+                <div class="card bg-fadeblue" id="c2">
+                    About us
+                </div>
+            </div>
+            <img class="dotted" id="dot2" src="resource/dotted_line_2-removebg-preview.png ">
+        </div>
+
+
+        <div class="sector flex center ">
+            <div class="cardbox flex center " id="cb3">
+
+                <img id="i3" class="" src="resource/Project Stages.gif">
+                <div class="card bg-yellow" id="c3">
+                    School Activities
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="miscarea">
+        <img src="resource/nwv1.svg" id="btmwave">
+    </div>
+
+
+    <div class="gallery flex center ">
+        <h1 class="ff-br uppercase fs-ubig">
+            gallery
+            <span class="underline"></span>
+        </h1>
+
+        <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded":true }'>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img1.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img2.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img3.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img4.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img5.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img6.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img7.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img8.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img9.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img10.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img11.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img12.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img13.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img14.jpeg">
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="bg-white">
+        <!-- <footer class=" border "> -->
+        <div class="content">
+            <div class="left box">
+                <div class="upper">
+
+                    <span class="logobar fs-big fw-600 ff-sg uppercase flex ">
+                        <div class="logo bg-orange"></div>
+                        CGKG
+                    </span>
+                </div>
+                <div class="lower">
+                    <div class="topic">Contact us</div>
+                    <div class="phone">
+                        <a href="#"><i class="fas fa-phone-volume"></i>+007 9089 6767</a>
+                    </div>
+                    <div class="email">
+                        <a href="#"><i class="fas fa-envelope"></i>cgkgpb@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="middle box">
+                <div class="topic">Our School</div>
+                <div><a href="#">Academics</a></div>
+                <div><a href="#">About Us</a></div>
+                <div><a href="#">School Activities</a></div>
+                <div><a href="#">Table of Content</a></div>
+                <div><a href="#">Gallery</a></div>
+            </div>
+            <div class="right box">
+                <div class="topic">Subscribe us</div>
+                <form action="#">
+                    <input type="text" placeholder="Enter email address">
+                    <input type="submit" name="" value="Send">
+
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <script src="gsap.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+
+</html>

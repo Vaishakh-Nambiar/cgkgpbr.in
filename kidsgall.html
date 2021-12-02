@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple Slider using Flickity Plugin | HackerRahul.com</title>
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+</head>
+<style>
+  .carousel-cell {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+  }
+
+  .gallery {
+    height: 80vh;
+    width: 80vw;
+  }
+
+  .carousel {
+    height: 50vh;
+    width: 50vw;
+  }
+
+  .carousel img {
+    height: 300px;
+    width: 500px;
+
+  }
+</style>
+
+<body>
+  <div class="gallery">
+
+    <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded":true }'>
+      <div class="carousel-cell">
+        <img class="w3-image" src="resource/img1.jpeg">
+      </div>
+      <div class="carousel-cell">
+        <img class="w3-image" src="resource/img2.jpeg">
+      </div>
+      <div class="carousel-cell">
+        <img class="w3-image" src="resource/img3.jpeg">
+      </div>
+      <div class="carousel-cell">
+        <img class="w3-image" src="resource/img4.jpeg">
+      </div>
+      <div class="carousel-cell">
+        <img class="w3-image" src="resource/img5.jpeg">
+      </div>
+      <div class="carousel-cell">
+        <img class="w3-image" src="resource/img6.jpeg">
+      </div>
+      <div class="carousel-cell">
+        <img class="w3-image" src="resource/img7.jpeg">
+      </div>
+      <div class="carousel-cell">
+        <img class="w3-image" src="resource/img8.jpeg">
+      </div>
+      <div class="carousel-cell">
+        <img class="w3-image" src="resource/img9.jpeg">
+      </div>
+      <div class="carousel-cell">
+        <img class="w3-image" src="resource/img10.jpeg">
+      </div>
+      <div class="carousel-cell">
+        <img class="w3-image" src="resource/img11.jpeg">
+      </div>
+      <div class="carousel-cell">
+        <img class="w3-image" src="resource/img12.jpeg">
+      </div>
+      <div class="carousel-cell">
+        <img class="w3-image" src="resource/img13.jpeg">
+      </div>
+      <div class="carousel-cell">
+        <img class="w3-image" src="resource/img14.jpeg">
+      </div>
+
+    </div>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+
+</html>

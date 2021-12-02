@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academics</title>
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="pages.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="tables.css">
+</head>
+<style>
+    main {
+        margin: 3rem 2rem;
+        height: auto;
+    }
+
+    .fs-txt {
+        font-size: 1.2rem;
+    }
+
+
+    h1 {
+        margin: 1rem 0px;
+    }
+
+    .underline {
+        width: 30%;
+    }
+
+    .quote {
+        display: inline-block;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .quote::before {
+        content: " \‘\‘ ";
+        font-size: 6rem;
+        margin-inline: 2rem;
+    }
+
+    .quote::after {
+        content: " \’\’ ";
+        font-size: 6rem;
+        margin-inline: 2rem;
+
+    }
+
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        padding: 2rem;
+    }
+
+
+    .div1 {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .div2 {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .div3 {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .div4 {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    .div5 {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .div6 {
+        grid-area: 3 / 2 / 4 / 3;
+    }
+
+    .options h1 {
+        align-self: center;
+    }
+
+
+    .wrapper {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .parent a {
+        display: block;
+        padding: 1.5rem;
+        text-decoration: none;
+        color: #333;
+        border: 2px solid #333;
+        letter-spacing: 2px;
+        text-align: center;
+        position: relative;
+        transition: all 0.35s;
+
+        font-size: 1.5rem;
+        font-weight: var(--fw-500)
+    }
+
+    .parent a span {
+        position: relative;
+        z-index: 2;
+    }
+
+    .parent a:after {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background: #ff003b;
+        transition: all 0.35s;
+    }
+
+    .parent a:hover {
+        color: #fff;
+    }
+
+    .parent a:hover:after {
+        width: 100%;
+    }
+
+    .clb,
+    .upgrade {
+        flex-basis: 50%;
+        position: relative;
+    }
+
+
+    .clb ul {
+        flex-basis: 50%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: justify;
+    }
+
+    .clb ul h1 {
+        margin: 0;
+    }
+
+
+    .imggallery {
+        width: 700px;
+        min-height: 300px;
+        /* border: 2px solid; */
+        margin-inline: 2rem;
+    }
+
+    .imggallery img {
+        border: none;
+        width: 100%;
+    }
+
+    .txtcont ul:nth-child(2) {
+        border-color: pink;
+    }
+</style>
+
+<body>
+    <nav class="flex ">
+        <span class="fs-big fw-600 ff-sg uppercase flex ">
+            <div class="logo"></div>
+            CGKG
+        </span>
+        <div class="navbtn ff-br flex center ">
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul class="nav-links fw-500 ">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Details</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="flex column">
+        <div class="quote ff-rb fs-ubig flex center">
+            Education is the most powerful weapon which you can use to change the world.
+        </div>
+
+        <h1 class="ff-br uppercase ">
+            ACADEMIC SESSION 2021-22
+
+            <span class="underline"></span>
+        </h1>
+        <div class="txtcont flex center ff-rb fs-txt ">
+            <div class="imggallery border"></div>
+            <ul>
+                <li>
+                    (a) SESSION STARTED W.E.F. 01 APR 21 WITH A STRENGTH OF 141 STUDENTS
+                </li>
+                <li>
+
+                    (b) ONLINE CLASSES BEING CONDUCTED USING VIRTUAL PLATFORMS LIKE GOOGLE MEET/ WHATS APP VIEW ONGOING
+                    PANDEMIC SCENARIO
+                </li>
+                <li>
+
+                    (c) INITIATION OF LIVE DIGITAL CELEBRATIONS/ ACTIVITIES VIRTUALLY USING GOOGLE MEET BY SHARING A
+                    COMMON
+                    LINK
+
+                <li>
+
+                    (d) RECRUITMENT OF A TRAINED TEACHER CARRIED OUT DURING AUG 21
+
+                </li>
+                <li>
+
+                    (e) ADMISSION OF A SPECIAL CHILD (DOWN SYNDROME) IN CLASS NURSERY
+                </li>
+                <li>
+
+                    (f) RETAINING WALL AND HARD STANDING/ SAND CUSHIONING OF PLAY AREA WORK COMPLETED
+
+                </li>
+                <li>
+                    (g) PROCUREMENT OF NEW HAND SANITIZING MACHINE (TOUCH LESS) CARRIED OUT
+                </li>
+                <li>
+                    (g) PROCUREMENT OF NEW HAND SANITIZING MACHINE (TOUCH LESS) CARRIED OUT
+                </li>
+            </ul>
+        </div>
+    </main>
+    <main class="flex column">
+
+        <div class="clb  txtcont flex center ff-rb fs-txt">
+
+            <ul>
+                <h1 class="ff-br uppercase fs-med">
+                    virtual celebrations
+                    <span class="underline"></span>
+                </h1>
+                <li>
+                    Virtual Celebrations. The school has initiated live digital celebrations. Following
+                    activities/
+                    celebrations
+                    have been carried out virtually using Google Meet by sharing a common link by teachers from
+                    school and
+                    kids/
+                    parents joining from home:-
+                </li>
+                <li>
+                    (a) Independence Day
+
+                </li>
+
+                <li>
+                    (b) Krishna Janmashtami
+
+                </li>
+
+                <li>
+                    (c) Ganesha Charutathi
+
+                </li>
+
+                <li>
+                    (d) Diwali
+                </li>
+
+            </ul>
+
+            <!-- </div>
+
+        <div class="upgrade  txtcont flex center ff-rb fs-txt"> -->
+            <ul>
+                <h1 class="ff-br uppercase fs-med">
+                    Future Upgradation Plans
+
+                    <span class="underline"></span>
+                </h1>
+                <li>
+                    Future Upgradation Plans
+
+                </li>
+                <li>
+                    (a) Introduction of school website.
+
+                </li>
+                <li>
+                    (b) Construction of additional class room building (G+2) for school.
+
+                </li>
+                <li>
+                    (c) Up-gradation of CGKG to Ist and subsequently to IInd standard post construction of G+2 building.
+
+                </li>
+            </ul>
+
+
+        </div>
+
+    </main>
+    <main class="flex column">
+        <h1 class="ff-br uppercase ">
+            diversity
+
+            <span class="underline"></span>
+        </h1>
+        <div class="txtcont flex center ff-rb fs-txt ">
+            <div class="imggallery">
+                <img src="resource/172-Diversity-&-Inclusion-Revision.svg" alt="">
+            </div>
+            <p class="ff-rb fw-400 fs-med">
+                Admission of a special child named Master Anurag Kumar Amar, S/o Mr Santosh Kumar Amar has been
+                carried
+                out
+                during Oct 21 post duly scrutinizing the case, in class Nursery as a regular student subject to
+                reviewal
+                after restoring of regular classes. The kid is a special child with Down Syndrome. He was
+                interviewed/
+                interacted with by Headmistress and has shown nil symptoms of emotional outburst or movement
+                disabilities.
+                The child has controlled saliva movement as well as walking/ locomotory skills. He is able to recite
+                alphabets, numbers, rhymes as well as identify colours.
+            </p>
+        </div>
+    </main>
+
+
+    <main class="flex column">
+        <div class="options flex center ff-rb fs-txt ">
+            <h1 class="ff-br uppercase  ">
+                table of content
+                <span class="underline"></span>
+            </h1>
+            <div class="parent">
+                <!-- <div class="wrapper"> -->
+                <!-- <a href="#"><span>Hover Me!</span></a> -->
+                <div class="div1">
+                    <a href="SCHOOL MANAGEMENT COMMITTEE.HTML" target="blank"><span>School Management</span></a>
+                </div>
+                <div class="div2">
+                    <a href="SPORTS EQUIPMENT LIST.HTML" target="blank"><span>Equipment</span></a>
+                </div>
+                <div class="div3">
+                    <a href="LEARNING MATERIALS.HTML" target="blank"><span>Learning Materials</span></a>
+                </div>
+                <div class="div4">
+
+                    <a href="assets_facilities.html" target="blank"><span>Assets and facilities</span></a>
+                </div>
+                <div class="div5">
+                    <a href="school staff.html" target="blank"><span>School Staff</span></a>
+                </div>
+                <div class="div6">
+                    <a href="#"><span>Apply Now</span></a>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-white">
+        <!-- <footer class=" border "> -->
+        <div class="content">
+            <div class="left box">
+                <div class="upper">
+
+                    <span class="logobar fs-big fw-600 ff-sg uppercase flex ">
+                        <div class="logo bg-orange"></div>
+                        CGKG
+                    </span>
+                </div>
+                <div class="lower">
+                    <div class="topic">Contact us</div>
+                    <div class="phone">
+                        <a href="#"><i class="fas fa-phone-volume"></i>+007 9089 6767</a>
+                    </div>
+                    <div class="email">
+                        <a href="#"><i class="fas fa-envelope"></i>cgkgpb@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="middle box">
+                <div class="topic">Our School</div>
+                <div><a href="#">Academics</a></div>
+                <div><a href="#">About Us</a></div>
+                <div><a href="#">School Activities</a></div>
+                <div><a href="#">Table of Content</a></div>
+                <div><a href="#">Gallery</a></div>
+            </div>
+            <div class="right box">
+                <div class="topic">Subscribe us</div>
+                <form action="#">
+                    <input type="text" placeholder="Enter email address">
+                    <input type="submit" name="" value="Send">
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
