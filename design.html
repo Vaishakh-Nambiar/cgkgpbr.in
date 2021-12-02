@@ -38,6 +38,11 @@
         overflow-x: hidden;
     }
 
+    a {
+        text-decoration: none;
+        color: initial;
+    }
+
     .underline {
         display: block;
         border-radius: 10px;
@@ -61,9 +66,11 @@
                     <div class="line"></div>
                 </div>
                 <ul class="nav-links">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Details</a></li>
+                    <li><a href="design.html">About</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                    <li><a href="https://www.google.com/maps/place/Coast+Guard+Kindergarten+School/@11.6741416,92.7234718,15z/data=!4m5!3m4!1s0x0:0x6ff26575b9987515!8m2!3d11.6741399!4d92.7234843?hl=en-GB"
+                            target="blank">Address</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -93,7 +100,9 @@
             <div class="cardbox flex center " id="cb1">
                 <img id="i1" src="resource/Teaching-pana.svg">
                 <div class="card bg-pink" id="c1">
-                    Academics
+                    <a href="academics.html" target="blank">
+                        Academics
+                    </a>
                 </div>
             </div>
             <img class="dotted" id="dot1" src="resource/dotted_line-removebg-preview.png ">
@@ -104,7 +113,9 @@
             <div class="cardbox flex center " id="cb2">
                 <img id="i2" src="resource/Teacher-pana.svg">
                 <div class="card bg-fadeblue" id="c2">
-                    About us
+                    <a href="pages.html" target="blank">
+                        About us
+                    </a>
                 </div>
             </div>
             <img class="dotted" id="dot2" src="resource/dotted_line_2-removebg-preview.png ">
@@ -116,7 +127,10 @@
 
                 <img id="i3" class="" src="resource/Project Stages.gif">
                 <div class="card bg-yellow" id="c3">
-                    School Activities
+
+                    <a href="academics.html" target="blank">
+                        School Activities
+                    </a>
                 </div>
             </div>
         </div>
@@ -179,7 +193,7 @@
         </div>
     </div>
 
-    <footer class="bg-white">
+    <footer class="bg-white" id='footer'>
         <!-- <footer class=" border "> -->
         <div class="content">
             <div class="left box">
