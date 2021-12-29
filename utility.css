@@ -184,3 +184,13 @@ nav {
   background-position: center;
   background-color: white;
 }
+
+.margin-x {
+  margin-block: 2rem;
+}
+.margin-y {
+  margin-inline: 2rem;
+}
+.margin {
+  margin: 2rem 2rem;
+}

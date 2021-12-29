@@ -59,7 +59,7 @@ main span {
   position: relative;
 }
 .txtcont {
-  display: flex;
+  /* display: flex; */
   margin: 20px;
   line-height: 2rem;
   color: #393e46;
@@ -135,4 +135,24 @@ nav {
   width: 400px;
   right: 5%;
   top: 2rem;
+}
+
+.diversity .txtcont {
+  justify-content: space-evenly;
+}
+.diversity .txtcont p {
+  width: 65%;
+}
+
+@media (max-width: 35rem) {
+  .column {
+    flex-direction: row;
+  }
+  .flex {
+    flex-direction: row;
+  }
+
+  .txtcont {
+    flex-direction: column;
+  }
 }

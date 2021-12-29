@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="pages.css">
+    <link rel="stylesheet" href="academics.css">
 
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 </head>
@@ -51,20 +52,43 @@
         display: block;
         border-radius: 10px;
         height: 5px;
-        width: 100%;
         background-color: pink;
+        width: 8rem;
+    }
+
+    .hline {
+        width: 20%;
     }
 </style>
 </head>
 
 <body>
 
-    <section class="landpage vh-150">
+    <section class="landpage vh-150 flex">
         <nav class="flex ">
-            <a href="design.html">
-
+            <a href="design.html" class="navname flex ">
                 <div class="logo bg-orange"></div>
             </a>
+
+            <div class="navbtn">
+
+
+                <ul class="nav-links">
+                    <li><a target="blank" href="design.html">HOME</a></li>
+                    <li><a href="#ac">ACADEMICS</a></li>
+                    <li><a target="blank" href="resource/Adobe Scan 26 Nov 2021.pdf" target="blank">ADMISSION</a>
+                    </li>
+                    <li><a target="blank" href="SPORTS EQUIPMENT LIST.HTML">ACTIVITIES</a></li>
+                    <li><a href="#achievements">ACHIEVEMENTS</a></li>
+                    <!-- <li><a target="blank" href="time table.html">TIME TABLE</a></li> -->
+                </ul>
+            </div>
+        </nav>
+        <!-- <nav class="flex ">
+            <a href="design.html" class="navname flex ">
+                <div class="logo bg-orange"></div>
+            </a>
+
             <div class="navbtn">
 
                 <div class="hamburger">
@@ -73,14 +97,18 @@
                     <div class="line"></div>
                 </div>
                 <ul class="nav-links">
-                    <li><a href="design.html">About</a></li>
-                    <li><a href="#footer">Contact</a></li>
-                    <li><a href="https://www.google.com/maps/place/Coast+Guard+Kindergarten+School/@11.6741416,92.7234718,15z/data=!4m5!3m4!1s0x0:0x6ff26575b9987515!8m2!3d11.6741399!4d92.7234843?hl=en-GB"
-                            target="blank">Address</a>
+                    <li><a target="blank" href="design.html">HOME</a></li>
+                    <li><a target="blank" href="list of library books.html">ACADEMICS</a></li>
+                    <li><a target="blank" href="
+                            target=" blank">ADMISSION</a>
                     </li>
+                    <li><a target="blank" href="SPORTS EQUIPMENT LIST.HTML">ACTIVITIES</a></li>
+                    <li><a target="blank" href="#achievements">ACHIEVEMENTS</a></li>
+                    <li><a target="blank" href="teaching staff.html">STAFF.</a></li>
+                    <li><a target="blank" href="time table.html">TIME TABLE</a></li>
                 </ul>
             </div>
-        </nav>
+        </nav> -->
         <div class="landname bg-white flex center ">
             <span class="cgkg ff-sg fw-700 flex center column ">
                 CGKG
@@ -90,18 +118,14 @@
             </span>
         </div>
 
+
         <div class="right-misc">
-
-            <img id="smallell" src="resource/Ellipse 11.svg">
-            <img id="bigell" src="resource/Ellipse 5.svg">
-
-            <img id="imgstudy" src="resource/Kids Studying from Home-pana.svg">
-
-            <img id="topwv" src="resource/nwv1.svg">
+            <img src="resource/schoolpic.svg" alt="" class="schoolimg">
         </div>
+
     </section>
 
-    <section class="boardpage  bg-vlightgreen flex column">
+    <!-- <section class="boardpage bg-vlightgreen flex column">
 
         <div class="sector flex center ">
             <div class="cardbox flex center " id="cb1">
@@ -141,13 +165,282 @@
                 </div>
             </div>
         </div>
+    </section> -->
+
+    <section class="boardpage bg-white flex ">
+        <main class="flex column vh-120">
+
+            <span class="ff-br fw-700 fs-ubig uppercase margin-x margin-y " id="ab">
+                <div class="hline"></div>
+                about us
+            </span>
+
+            <span class="ff-sg fw-600 fs-big margin-x margin-y">
+                COAST GUARD KINDERGARTEN
+                <div class="uline"></div>
+            </span>
+
+            <div class="txtcont flex center">
+                <p class="ff-rb fw-400 fs-med">
+                    Coast Guard Kindergarten was established on 15 Jul 1996. The school started with a meagre strength
+                    of 07
+                    students and one teacher in a wooden shed in the name of Udyan KG School under the guidance of
+                    Deputy
+                    Inspector General D Banerjee, PTM, COMCG (A & N) and Mrs. Renuka Raj as the Headmistress. Presently,
+                    149
+                    students are on the roll with 08 teaching and 12 non-teaching staff members.
+                </p>
+                <div class="txt-img">
+                    <img src="resource/req1.svg">
+                </div>
+            </div>
+            <div class="txtcont flex center">
+                <p class="ff-rb fw-400 fs-med">
+                    Coast Guard Education Society, Port Blair was registered on 24 Jan 18 and subsequently school was
+                    registered
+                    with Andaman & Nicobar Education Department on 27 Jun 18 as Coast Guard
+                    kindergarten. The school provides 25% seats for admission to children belonging to weaker section.
+                </p>
+                <div class="txt-img">
+                    <img src="resource/req3.svg">
+                </div>
+            </div>
+
+        </main>
+
     </section>
-    <div class="miscarea">
-        <img src="resource/nwv1.svg" id="btmwave">
+
+
+    <div class="academics" id="ac">
+        <main class="flex column ">
+
+            <h1 class="ff-br uppercase margin ">
+                ACADEMIC SESSION 2021-22
+                <span class="underline"></span>
+            </h1>
+            <div class="txtcont flex center ff-rb fs-txt ">
+                <div class="imggallery">
+                    <img src="resource/img11.jpeg" alt="">
+                </div>
+                <ul>
+                    <li>
+                        (a) SESSION STARTED W.E.F. 01 APR 21 WITH A STRENGTH OF 141 STUDENTS
+                    </li>
+                    <li>
+
+                        (b) ONLINE CLASSES BEING CONDUCTED USING VIRTUAL PLATFORMS LIKE GOOGLE MEET/ WHATS APP VIEW
+                        ONGOING
+                        PANDEMIC SCENARIO
+                    </li>
+                    <li>
+
+                        (c) INITIATION OF LIVE DIGITAL CELEBRATIONS/ ACTIVITIES VIRTUALLY USING GOOGLE MEET BY
+                        SHARING A
+                        COMMON
+                        LINK
+
+                    <li>
+
+                        (d) RECRUITMENT OF A TRAINED TEACHER CARRIED OUT DURING AUG 21
+
+                    </li>
+                    <li>
+
+                        (e) ADMISSION OF A SPECIAL CHILD (DOWN SYNDROME) IN CLASS NURSERY
+                    </li>
+                    <li>
+
+                        (f) RETAINING WALL AND HARD STANDING/ SAND CUSHIONING OF PLAY AREA WORK COMPLETED
+
+                    </li>
+                    <li>
+                        (g) PROCUREMENT OF NEW HAND SANITIZING MACHINE (TOUCH LESS) CARRIED OUT
+                    </li>
+                    <li>
+                        (g) PROCUREMENT OF NEW HAND SANITIZING MACHINE (TOUCH LESS) CARRIED OUT
+                    </li>
+                </ul>
+            </div>
+        </main>
+        <main class="flex column">
+
+            <div class="clb txtcont flex center ff-rb fs-txt">
+
+                <ul>
+                    <h1 class="ff-br uppercase fs-med">
+                        virtual celebrations
+                        <span class="underline"></span>
+                    </h1>
+                    <li>
+                        Virtual Celebrations. The school has initiated live digital celebrations. Following
+                        activities/
+                        celebrations
+                        have been carried out virtually using Google Meet by sharing a common link by teachers from
+                        school and
+                        kids/
+                        parents joining from home:-
+                    </li>
+                    <li>
+                        (a) Independence Day
+
+                    </li>
+
+                    <li>
+                        (b) Krishna Janmashtami
+
+                    </li>
+
+                    <li>
+                        (c) Ganesha Charutathi
+
+                    </li>
+
+                    <li>
+                        (d) Diwali
+                    </li>
+
+                </ul>
+
+                <!-- </div>
+
+        <div class="upgrade  txtcont flex center ff-rb fs-txt"> -->
+                <ul>
+                    <h1 class="ff-br uppercase fs-med">
+                        Future Upgradation Plans
+
+                        <span class="underline"></span>
+                    </h1>
+                    <li>
+                        Future Upgradation Plans
+
+                    </li>
+                    <li>
+                        (a) Introduction of school website.
+
+                    </li>
+                    <li>
+                        (b) Construction of additional class room building (G+2) for school.
+
+                    </li>
+                    <li>
+                        (c) Up-gradation of CGKG to Ist and subsequently to IInd standard post construction of G+2
+                        building.
+
+                    </li>
+                </ul>
+
+
+            </div>
+
+        </main>
+
+        <main class="diversity flex column ">
+
+            <div class="txtcont flex center ff-rb fs-txt ">
+                <span></span>
+                <h1 class="ff-br uppercase ">
+                    diversity
+
+                    <span class="underline"></span>
+                </h1>
+
+                <p class="ff-rb fw-400 fs-med">
+                    Admission of a special child named Master Anurag Kumar Amar, S/o Mr Santosh Kumar Amar has been
+                    carried
+                    out
+                    during Oct 21 post duly scrutinizing the case, in class Nursery as a regular student subject to
+                    reviewal
+                    after restoring of regular classes. The kid is a special child with Down Syndrome. He was
+                    interviewed/
+                    interacted with by Headmistress and has shown nil symptoms of emotional outburst or movement
+                    disabilities.
+                    The child has controlled saliva movement as well as walking/ locomotory skills. He is able to
+                    recite
+                    alphabets, numbers, rhymes as well as identify colours.
+                </p>
+            </div>
+        </main>
+
+        <main class=" flex column vh-100" id="achievements">
+            <span></span>
+            <!-- <span class="ff-br fw-700 fs-big uppercase">
+                <div class="hline"></div>
+                Achievements
+            </span> -->
+
+            <div class="txtcont flex center ff-rb fs-txt">
+                <ul>
+                    <li>
+                        (a) Audit of school fund account by CA for FY 20-21 is completed.
+                    </li>
+                    <li>
+
+                        (b) Construction work of retaining wall behind school office is completed.
+                    </li>
+                    <li>
+
+                        (c) Walls of school are being painted by Janki Rao, Choukidar with poems and cartoons.
+                    <li>
+
+                        (d) Recruitment for the post of Trained Teacher has been carried on 02 Aug 21.
+
+                    </li>
+                    <li>
+
+                        (e) Work for development of children play area (Hard standing/ sand cushioning) is
+                        completed.
+                    </li>
+                    <li>
+
+                        (f) Provisioning of drainage system has been made in the children play area.
+
+                    </li>
+                    <li>
+                        (g) Procurement of Hand Sanitizing Machine (Touchless).
+                    </li>
+                </ul>
+
+                <div class="txt-img flex center">
+                    <span class="ff-br fw-700 fs-big uppercase">
+                        <div class="hline"></div>
+                        Achievements
+                    </span>
+                </div>
+            </div>
+
+        </main>
+        <main class="flex column">
+            <div class="options flex center ff-rb fs-txt ">
+                <h1 class="ff-br uppercase  " id="table">
+                    table of content
+                    <span class="underline"></span>
+                </h1>
+                <div class="parent"">
+                    <div class=" div1">
+                    <a href="SCHOOL MANAGEMENT COMMITTEE.HTML" target="blank"><span>School Management</span></a>
+                </div>
+                <div class="div2">
+                    <a href="time table.html" target="blank"><span>Time Table</span></a>
+                </div>
+                <div class="div3">
+                    <a href="LEARNING MATERIALS.HTML" target="blank"><span>Misc. Details</span></a>
+                </div>
+                <div class="div4">
+
+                    <a href="assets_facilities.html" target="blank"><span>Assets and facilities</span></a>
+                </div>
+                <div class="div5">
+                    <a href="school staff.html" target="blank"><span>School Staff</span></a>
+                </div>
+                <div class="div6">
+                    <a href="resource/Adobe Scan 26 Nov 2021.pdf" target="blank"><span>Apply Now</span></a>
+                </div>
+            </div>
     </div>
+    </main>
 
 
-    <div class="gallery flex center " id=>
+    <div class="gallery flex center " id="gallery">
         <h1 class="ff-br uppercase fs-ubig">
             gallery
             <span class="underline"></span>
@@ -223,10 +516,17 @@
             </div>
             <div class="middle box">
                 <div class="topic">Our School</div>
-                <div><a href="academics.html">Academics</a></div>
-                <div><a href="design.html">About Us</a></div>
-                <div><a href="resource/Adobe Scan 30 Nov 2021 (1).pdf">School Activities</a></div>
+                <div><a href="#ac">Academics</a></div>
+                <div><a href="#ab">About Us</a></div>
                 <div><a href="#gallery">Gallery</a></div>
+                <div><a target="blank" href="resource/Adobe Scan 30 Nov 2021 (1).pdf">School Activities</a></div>
+                <div><a target="blank" href="time table.html">Time Table</a></div>
+                <div><a target="blank" href="LEARNING MATERIALS.HTML">Learning Materials</a></div>
+                <div><a target="blank" href="SCHOOL MANAGEMENT COMMITTEE.HTML">Management</a></div>
+                <div><a target="blank" href="school staff.html">School Staff</a></div>
+                <div><a target="blank" href="SPORTS EQUIPMENT LIST.HTML">Sports Equipments </a></div>
+                <div><a target="blank" href="assets_facilities.html">Assets and facilities</a></div>
+                <div><a target="blank" href="resource/Adobe Scan 26 Nov 2021.pdf">Admission form</a></div>
             </div>
             <div class="right box">
                 <div class="topic">Subscribe us</div>
