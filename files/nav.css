@@ -23,7 +23,7 @@ nav span {
 .logo {
   height: 100px;
   width: 100px;
-  background-image: url(resource/logo.jpg);
+  background-image: url(logo.jpg);
   background-size: contain;
   background-position: center;
   background-color: white;
